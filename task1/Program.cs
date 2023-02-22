@@ -1,4 +1,4 @@
-﻿// 
+﻿// программа принимает координаты двух точек и находит расстояние между ними в трехмерном пространстве
 Console.Write("введите координату Х первой точки: ");
 double x1=Convert.ToInt32(Console.ReadLine());
 Console.Write("введите координату Y первой точки: ");
@@ -15,4 +15,4 @@ double A= x2 - x1;
 double B= y2 - y1;
 double C= z1 - z2;
 double distance = Math.Sqrt(A*A+B*B+C*C);
-Console.WriteLine( distance);
+Console.WriteLine(distance);
